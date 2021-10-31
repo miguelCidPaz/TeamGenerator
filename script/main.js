@@ -368,7 +368,6 @@ function createOptions() {
 
 //Generar lista de options en base a numero de equipos
 function generateByTeamNumber(len) {
-    //Alamcenamos las opciones en un array auxiliar
     let auxArrOptions = [];
     for (let index = 2; index < len / 2; index++) {
         //Verificamos que los equipos sean de minimo 2 participantes
